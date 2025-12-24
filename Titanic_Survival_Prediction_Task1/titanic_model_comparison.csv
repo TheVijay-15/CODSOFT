@@ -1,0 +1,7 @@
+Model,Best Parameters,Accuracy,Precision,Recall,F1-Score,CV Score
+Decision Tree,"{'max_depth': 3, 'min_samples_split': 2}",0.8324,0.8,0.7536,0.7761,0.8161
+Random Forest,"{'max_depth': 10, 'min_samples_split': 10, 'n_estimators': 100}",0.8324,0.8421,0.6957,0.7619,0.8287
+Gradient Boosting,"{'learning_rate': 0.2, 'max_depth': 3, 'n_estimators': 200}",0.8212,0.7846,0.7391,0.7612,0.8203
+Logistic Regression,"{'C': 0.1, 'solver': 'lbfgs'}",0.8156,0.8,0.6957,0.7442,0.8147
+SVM,"{'C': 0.1, 'kernel': 'linear'}",0.8156,0.7727,0.7391,0.7556,0.8035
+KNN,"{'n_neighbors': 5, 'weights': 'uniform'}",0.6872,0.6066,0.5362,0.5692,0.7543
